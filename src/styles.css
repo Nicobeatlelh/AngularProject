@@ -29,6 +29,12 @@
         float: left;
     }
 }
+@media (min-width: 992px) {
+    .col-md-5ths-4 {
+        width: 80%;
+        float: right;
+    }
+}
 
 @media (min-width: 1200px) {
     .col-lg-5ths {
@@ -49,4 +55,25 @@
 
 .top-sep{
     margin-top:10px;
+}
+.sideOptions{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    background: #212121;
+    z-index: 10;
+}
+.opt-header{
+    display:block;
+    width:100%;
+    padding: 5px 0 5px 3px;
+    color:white;
+    background: #212121;
+    border-bottom: 1px solid white;
+}
+.opt-boton{
+    margin: 35px 15px 0 20px;
+    box-shadow: 0 1px 1px #888888;
 }
